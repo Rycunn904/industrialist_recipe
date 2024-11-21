@@ -1,0 +1,98 @@
+{
+    "Sodium Hydroxide Solution": {
+        "1": {
+            "input": {
+                "Consentrated Salt Solution": 8
+            },
+            "output": {
+                "Chlorine": 60,
+                "Sodium Hydroxide Solution": 6
+            },
+            "build": "Electrolysis Plant"
+        }
+    },
+    "PTA": {
+        "1": {
+            "input": {
+                "Paraxylene": 1,
+                "Acetic Acid": 4
+            },
+            "output": {
+                "PTA": 2
+            },
+            "build": "Plastic Refinery"
+        }
+    },
+    "Tetraethyllead": {
+        "1": {
+            "input": {
+                "Ethanol": 4,
+                "Lead Ingot": 1
+            },
+            "output": {
+                "Tetraethyllead": 10
+            },
+            "build": "Chemical Reactor"
+        }
+    },
+    "Purple Gold Ingot": {
+        "1": {
+            "input": {
+                "Molter Purple Gold": 2
+            },
+            "output": {
+                "Purple Gold Ingot": 1
+            },
+            "build": "Ingot Molder"
+        }
+    },
+    "Crankshaft": {
+        "1": {
+            "input": {
+                "Steel Rod": 2,
+                "Gear": 4
+            },
+            "output": {
+                "Crankshaft": 1
+            },
+            "build": "Craft Assembler"
+        },
+        "2": {
+            "input": {
+                "Steel Rod": 2,
+                "Gear": 4
+            },
+            "output": {
+                "Crankshaft": 1
+            },
+            "build": "Advanced Assembler"
+        }
+    },
+    "Electric Motor": {
+        "1": {
+            "input": {
+                "Electromagnet": 4,
+                "Ferroaluminum Magnet": 0.2,
+                "Steel Rod": 2,
+                "Steel Plate": 4,
+                "Machine Oil": 2
+            },
+            "output": {
+                "Electric Motor": 2
+            },
+            "build": "Advanced Assembler"
+        },
+        "2": {
+            "input": {
+                "Electromagnet": 6,
+                "Steel Rod": 2,
+                "Steel Plate": 4,
+                "Machine Oil": 2
+            },
+            "output": {
+                "Electric Motor": 2
+            },
+            "build": "Advanced Assembler"
+        }
+    }
+}
