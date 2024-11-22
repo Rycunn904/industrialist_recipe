@@ -94,5 +94,90 @@
             },
             "build": "Advanced Assembler"
         }
+    },
+    "Hydrogen Sulfide": {
+        "1": {
+            "input": {
+                "Steam": 500,
+                "Crude Oil": 40
+            },
+            "output": {
+                "Residue": 5,
+                "Coke Fuel": 4,
+                "Light Oil": 20,
+                "Hydrogen Sulfide": 12
+            },
+            "build": "Advanced Oil Seperator"
+        },
+        "2": {
+            "input": {
+                "Steam": 500,
+                "Light Oil": 40
+            },
+            "output": {
+                "Residue": 15,
+                "Hydrogen Sulfide": 6,
+                "Heavy Oil": 10
+            },
+            "build": "Advanced Oil Seperator"
+        }
+    },
+    "Lead Ingot": {
+        "1": {
+            "input": {
+                "Liquid Lead": 4
+            },
+            "output": {
+                "Lead Ingot": 2
+            },
+            "build": "Ingot Molder"
+        },
+        "2": {
+            "input": {
+                "Raw Lead": 2000,
+                "Coke Fuel": 240
+            },
+            "output": {
+                "Lead Ingot": 1000
+            },
+            "build": "Foundry"
+        }
+    },
+    "Liquid Sulfur": {
+        "1": {
+            "input": {
+                "Sulfur": 5
+            },
+            "output": {
+                "Liquid Sulfur": 10
+            },
+            "build": "Electric Furnace"
+        },
+        "2": {
+            "input": {
+                "Hydrogen Sulfide": 20
+            },
+            "output": {
+                "Liquid Sulfur": 30
+            }
+        },
+        "3": {
+            "input": {
+                "Hydrogen Sulfide": 20,
+                "Oxygen": 5
+            },
+            "output": {
+                "Liquid Sulfur": 30
+            }
+        },
+        "4": {
+            "input": {
+                "Sulfur": 10
+            },
+            "output": {
+                "Liquid Sulfur": 20
+            },
+            "build": "Industrial Electric Furnace"
+        }
     }
 }
