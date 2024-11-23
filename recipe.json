@@ -159,7 +159,8 @@
             },
             "output": {
                 "Liquid Sulfur": 30
-            }
+            },
+            "build": "Oxidation Plant"
         },
         "3": {
             "input": {
@@ -168,7 +169,8 @@
             },
             "output": {
                 "Liquid Sulfur": 30
-            }
+            },
+            "build": "Oxidation Plant"
         },
         "4": {
             "input": {
@@ -178,6 +180,131 @@
                 "Liquid Sulfur": 20
             },
             "build": "Industrial Electric Furnace"
+        }
+    },
+    "Iron Mix": {
+        "1": {
+            "input": {
+                "Coal": 1.66,
+                "Iron Powder": 1.6
+            },
+            "output": {
+                "Iron Mix": 3.2
+            },
+            "build": "Blast Furnace"
+        },
+        "2": {
+            "input": {
+                "Coke Fuel": 1,
+                "Iron Powder": 4.8
+            },
+            "output": {
+                "Iron Mix": 12.8
+            },
+            "build": "Blast Furnace"
+        },
+        "3": {
+            "input": {
+                "Coke Fuel": 2,
+                "Rock": 4
+            },
+            "output": {
+                "Iron Mix": 6
+            },
+            "build": "Blast Furnace"
+        },
+        "4": {
+            "input": {
+                "Coal": 4,
+                "Rock": 4
+            },
+            "output": {
+                "Iron Mix": 4
+            },
+            "build":"Blast Furnace"
+        }
+    },
+    "Filter": {
+        "1": {
+            "input": {
+                "Coal": 5,
+                "Iron Coil": 2,
+                "Paper": 2,
+                "Sand": 2
+            },
+            "output": {
+                "Filter": 1
+            },
+            "build": "Advanced Assembler"
+        },
+        "2": {
+            "input": {
+                "Coal": 5,
+                "Iron Coil": 2,
+                "Paper": 2,
+                "Gravel": 2
+            },
+            "output": {
+                "Filter": 2
+            },
+            "build":"Advanced Assembler"
+        }
+    },
+    "Liquid Lead": {
+        "1": {
+            "input": {
+                "Raw Lead": 5
+            },
+            "output": {
+                "Liquid Lead": 5
+            },
+            "build": "Industrial Electric Furnace"
+        }
+    },
+    "Liquid Glass": {
+        "1": {
+            "input": {
+                "Sand": 2
+            },
+            "output": {
+                "Liquid Sand": 1
+            },
+            "build": "Industrial Electric Furnace"
+        }
+    },
+    "Rock": {
+        "1": {
+            "input": {
+                "Shallow Earth Fragment": 6
+            },
+            "output": {
+                "Rock": 6
+            },
+            "build": "Grinder"
+        },
+        "2": {
+            "input": {
+                "Treated Rock": 5,
+                "Water": 20
+            },
+            "output": {
+                "Residue": 5,
+                "Rock": 5
+            },
+            "build": "Pressurized Water Filter"
+        },
+        "3": {
+            "input": {
+                "Water": 28,
+                "Medium Earth Fragment": 28
+            },
+            "output": {
+                "Shallow Earth Fragment": 14,
+                "Raw Iron": 14,
+                "Table Salt": 7,
+                "Rock": 7
+            },
+            "build": "Trommel"
         }
     }
 }
