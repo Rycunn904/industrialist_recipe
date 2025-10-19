@@ -8,7 +8,9 @@
                 "Chlorine": 60,
                 "Sodium Hydroxide Solution": 6
             },
-            "build": "Electrolysis Plant"
+            "build": "Electrolysis Plant",
+            "time": 30,
+            "power": 750000
         }
     },
     "PTA": {
@@ -20,7 +22,9 @@
             "output": {
                 "PTA": 2
             },
-            "build": "Plastic Refinery"
+            "build": "Plastic Refinery",
+            "time": 4,
+            "power": 60000
         }
     },
     "Tetraethyllead": {
